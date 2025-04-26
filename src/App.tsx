@@ -13,13 +13,14 @@ import {
 } from '@mui/material';
 import { UseRefForm } from './examples/useRef';
 import { UseStateForm } from './examples/useState';
+import { UseEffectDemo } from './examples/useEffect';
 
 const drawerWidth = 220;
 
 const demos = {
     useRef: <UseRefForm />,
     useState: <UseStateForm />,
-    // useEffect: <UseEffectDemo />,
+    useEffect: <UseEffectDemo />,
 };
 
 export default function App() {
