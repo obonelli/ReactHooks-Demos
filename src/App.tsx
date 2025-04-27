@@ -14,6 +14,7 @@ import {
 import { UseRefForm } from './examples/useRef';
 import { UseStateForm } from './examples/useState';
 import { UseEffectDemo } from './examples/useEffect';
+import { UseMemoDemo } from './examples/useMemo';
 
 const drawerWidth = 220;
 
@@ -21,6 +22,7 @@ const demos = {
     useRef: <UseRefForm />,
     useState: <UseStateForm />,
     useEffect: <UseEffectDemo />,
+    useMemo: <UseMemoDemo />,
 };
 
 export default function App() {
